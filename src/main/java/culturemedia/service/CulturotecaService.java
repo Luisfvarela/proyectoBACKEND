@@ -4,7 +4,7 @@ import culturemedia.model.Video;
 
 import java.util.List;
 
-public interface CultureMediaService {
+public interface CulturotecaService {
     void addVideo(Video video);
     List<Video> getAllVideos();
     Video getVideoById(int id);
